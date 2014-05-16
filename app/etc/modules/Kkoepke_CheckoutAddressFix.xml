@@ -3,7 +3,7 @@
 	<modules>
 		<Kkoepke_CheckoutAddressFix>
 			<active>true</active>
-			<codePool>local</codePool>
+			<codePool>community</codePool>
 			<depends>
 				<Mage_Checkout/>
 			</depends>
