@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Kkoepke_CheckoutAddressFix>
+			<version>0.1.0</version>
+		</Kkoepke_CheckoutAddressFix>
+		<depends>Mage_Checkout</depends>
+	</modules>
+	<global>
+		<blocks>
+			<checkout>
+				<rewrite>
+					<onepage_billing>Kkoepke_CheckoutAddressFix_Block_Onepage_Billing</onepage_billing>
+                    <onepage_shipping>Kkoepke_CheckoutAddressFix_Block_Onepage_Shipping</onepage_shipping>
+				</rewrite>
+			</checkout>
+		</blocks>
+	</global>
+</config>
