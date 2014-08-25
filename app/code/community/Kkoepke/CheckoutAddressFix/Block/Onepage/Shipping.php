@@ -1,6 +1,6 @@
 <?php
-class Kkoepke_CheckoutAddressFix_Block_Onepage_Shipping extends Mage_Checkout_Block_Onepage_Shipping {
-
+class Kkoepke_CheckoutAddressFix_Block_Onepage_Shipping extends Mage_Checkout_Block_Onepage_Shipping
+{
     public function getAddress()
     {
         if (is_null($this->_address)) {
@@ -9,6 +9,4 @@ class Kkoepke_CheckoutAddressFix_Block_Onepage_Shipping extends Mage_Checkout_Bl
 
         return $this->_address;
     }
-
 }
-?>
