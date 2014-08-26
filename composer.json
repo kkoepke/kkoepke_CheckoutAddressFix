@@ -1,0 +1,15 @@
+{
+    "name": "kkoepke/checkout-address-fix",
+    "type": "magento-module",
+    "description": "Magento Bugfix for remembering customer addresses after reload guest checkout",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "kkoepke",
+            "email": "kkoepke@scm.lupcom.de"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "dev-master"
+    }
+}
