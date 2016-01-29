@@ -15,5 +15,12 @@
                 </rewrite>
             </checkout>
         </blocks>
+        <models>
+            <sales>
+                <rewrite>
+                    <quote>Kkoepke_CheckoutAddressFix_Model_Quote</quote>
+                </rewrite>
+            </sales>
+        </models>
     </global>
 </config>
