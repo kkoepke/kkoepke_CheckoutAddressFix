@@ -70,8 +70,9 @@ extends Mage_Sales_Model_Quote
                     // set billing address from quote
                     $shippingAddress = $tmpShippingAddress;
                 }
-                return parent::assignCustomerWithAddressChange($customer, $billingAddress, $shippingAddress);
             }
+
+            return parent::assignCustomerWithAddressChange($customer, $billingAddress, $shippingAddress);
         // on else use origin magento model
         } else {
             return parent::assignCustomerWithAddressChange($customer, $billingAddress, $shippingAddress);
