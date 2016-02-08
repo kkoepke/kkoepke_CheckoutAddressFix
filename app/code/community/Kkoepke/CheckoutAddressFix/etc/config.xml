@@ -4,7 +4,6 @@
         <Kkoepke_CheckoutAddressFix>
             <version>0.1.0</version>
         </Kkoepke_CheckoutAddressFix>
-        <depends>Mage_Checkout</depends>
     </modules>
     <global>
         <blocks>
