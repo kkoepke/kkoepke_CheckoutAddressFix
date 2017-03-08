@@ -9,7 +9,7 @@
             "email": "kai@kkoepke.de"
         }
     ],
-    "require": {
+    "suggest": {
         "magento-hackathon/magento-composer-installer": "*"
     }
 }
